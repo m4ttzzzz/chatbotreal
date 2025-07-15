@@ -1,5 +1,6 @@
 # chatbotreal module by m4ttzzzz
 # Licensed under GPLv3 (GNU General Public License v3)
+# Copyright (C) 2025 m4ttzzzz
 
 function chatbotreal {
 	# Initialize params
