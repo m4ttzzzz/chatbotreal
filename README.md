@@ -48,6 +48,8 @@ And here are some of the other parameters here:
 
 ---
 # Dependencies
-1. [kanej/Posh-Cowsay](https://github.com/kanej/Posh-Cowsay/) - Required for `-Cow` parameter.
-
-
+- [kanej/Posh-Cowsay](https://github.com/kanej/Posh-Cowsay/) - Required for `-Cow` parameter.
+---
+# TODOs
+- Add memories
+- More responses
