@@ -1,20 +1,26 @@
 # ChatbotReal
 
-A Powershell module for chatting with a bot. Maybe.
+A Powershell module for chatting with a bot. Maybe?
 
-Licensed under the [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text)
+Licensed under the [**GNU General Public License v3**](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text)
 
 ---
 
 # Importing:
 
-Drop **chatbotreal.psm1** in your modules folder. To import it, execute:
+Drop [**chatbotreal.psm1**](https://github.com/m4ttzzzz/chatbotreal/raw/refs/heads/main/chatbotreal.psm1) in your modules folder. Specifically, in:
+```
+$env:USERPROFILE\Documents\WindowsPowershell\Modules\chatbotreal
+```
+*This might differ between other versions of Powershell.*
+
+To import it, execute:
 
 ```
 Import-Module "chatbotreal"
 ```
 
-And you can now use the module. Yay.
+And you can now use the module. Yay?
 
 ---
 
@@ -26,11 +32,11 @@ chatbotreal [message]
 ``` 
 
 And here are some of the other parameters here:
-1. `-Cow`
+- `-Cow`
    
    When enabled, instead of outputting into the console, it will go through `cowsay`.
    If you do not have `cowsay`, it fails but still logs the bot's response.
-3. `-Pipe`
+- `-Pipe`
    
    A useless parameter, I know. If enabled, it uses `Write-Output` instead of `Write-Host`. Good for saving the bot's output into a file.
 ---
